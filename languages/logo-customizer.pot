@@ -1,0 +1,40 @@
+# Copyright (C) 2010 Logo Customizer
+# This file is distributed under the same license as the Logo Customizer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Logo Customizer 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/logo-customizer\n"
+"POT-Creation-Date: 2012-07-28 12:03:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: logo-customizer.php:26
+msgid "Logo Image"
+msgstr ""
+
+#: logo-customizer.php:40
+msgid "Image"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Logo Customizer"
+msgstr ""
+
+#. #-#-#-#-#  logo-customizer.pot (Logo Customizer 1.0.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  logo-customizer.pot (Logo Customizer 1.0.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://firegoby.jp/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin allow you to customize logo image on Theme Customizer."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyauchi"
+msgstr ""
