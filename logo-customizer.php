@@ -4,7 +4,7 @@ Plugin Name: Logo Customizer
 Author: Takayuki Miyauchi
 Plugin URI: http://wpist.me/
 Description: This plugin allow you to customize logo image on Theme Customizer.
-Version: 1.0.0
+Version: 1.1.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: logo-customizer
