@@ -4,21 +4,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Customizer 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/logo-customizer\n"
-"POT-Creation-Date: 2012-07-28 12:03:49+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2012-07-31 19:38:38+00:00\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#: logo-customizer.php:26
+#: logo-customizer.php:37
 msgid "Logo Image"
 msgstr "ロゴ画像"
 
-#: logo-customizer.php:40
+#: logo-customizer.php:51
 msgid "Image"
 msgstr "画像"
+
+#: logo-customizer.php:64
+msgid "http://wpbooster.net/"
+msgstr "http://ja.wpbooster.net/"
+
+#: logo-customizer.php:65
+msgid "Make WordPress Site Load Faster"
+msgstr "WordPressをもっと速く！"
 
 #. Plugin Name of the plugin/theme
 msgid "Logo Customizer"
@@ -28,8 +37,8 @@ msgstr ""
 #. Plugin URI of the plugin/theme
 #. #-#-#-#-#  logo-customizer.pot (Logo Customizer 1.0.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-msgid "http://firegoby.jp/"
-msgstr "http://wpist.me/"
+msgid "http://wpist.me/"
+msgstr "http://firegoby.jp/"
 
 #. Description of the plugin/theme
 msgid "This plugin allow you to customize logo image on Theme Customizer."
@@ -38,3 +47,4 @@ msgstr "テーマカスタマイザーを使ってロゴ画像をアップロー
 #. Author of the plugin/theme
 msgid "Takayuki Miyauchi"
 msgstr "Takayuki Miyauchi"
+

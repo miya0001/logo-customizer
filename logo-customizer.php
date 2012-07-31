@@ -2,10 +2,10 @@
 /*
 Plugin Name: Logo Customizer
 Author: Takayuki Miyauchi
-Plugin URI: http://firegoby.jp/
+Plugin URI: http://wpist.me/
 Description: This plugin allow you to customize logo image on Theme Customizer.
 Version: 1.0.0
-Author URI: http://firegoby.jp/
+Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: logo-customizer
 */
@@ -18,6 +18,7 @@ function __construct()
 {
     add_action('customize_register', array(&$this, 'customize_register'));
     add_action('plugins_loaded', array(&$this, "plugins_loaded"));
+    add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
 }
 
 public function plugins_loaded()
@@ -53,6 +54,17 @@ public function customize_register($wp_customize)
         )
     ));
 
+}
+
+public function plugin_row_meta($links, $file)
+{
+    $pname = plugin_basename(__FILE__);
+    if ($pname === $file) {
+        $link = '<a href="%s">%s</a>';
+        $url = __("http://wpbooster.net/", 'logo-customizer');
+        $links[] = sprintf($link, esc_url($url), __("Make WordPress Site Load Faster", "logo-customizer"));
+    }
+    return $links;
 }
 
 } // end class LogoCustomizer

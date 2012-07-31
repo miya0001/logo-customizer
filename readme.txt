@@ -14,6 +14,8 @@ This plugin allow you to customize the logo image on Theme Customizer.
 
 This plugin allow you to customize the logo image on Theme Customizer.
 
+* https://github.com/miya0001/logo-customizer
+
 == Installation ==
 
 * A plug-in installation screen is displayed on the WordPress admin panel.
