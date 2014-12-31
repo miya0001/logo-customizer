@@ -14,7 +14,22 @@ This plugin allow you to customize the logo image on Theme Customizer.
 
 This plugin allow you to customize the logo image on Theme Customizer.
 
-* https://github.com/miya0001/logo-customizer
+https://github.com/miya0001/logo-customizer
+
+= How to display logo =
+
+Please place following.
+
+`<?php if ( function_exists( 'the_logo' ) ) the_logo(); ?>`
+
+= Set default logo =
+
+`
+add_filter( 'logo_customizer_default_logo', function() {
+    return 'http://example.com/path/to/logo.png';
+} );
+`
+
 
 == Installation ==
 
